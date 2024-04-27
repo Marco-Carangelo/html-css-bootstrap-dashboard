@@ -20,3 +20,8 @@ main {
     padding: .4rem;
     border-radius: 5px;
 }
+
+.accordion-item .accordion-header button {
+    font-size: .8rem;
+
+}
