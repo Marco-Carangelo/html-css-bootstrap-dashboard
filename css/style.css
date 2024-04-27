@@ -5,7 +5,12 @@ body {
 .action-icon {
     color: #6C757D;
     border: 1px solid #6C757D;
-    font-size: .8rem;
+
     padding: .4rem;
     border-radius: 5px;
+}
+
+.table {
+    font-size: .8rem;
+
 }
