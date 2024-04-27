@@ -86,169 +86,179 @@
         <main>
             <div class="container ">
 
-                <div>
-                    <!-- main section header-->
-                    <div class="d-flex py-4 justify-content-between ">
-                        <h2 class="fw-normal">Catalogo Libri</h2>
-                        <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+                <div class="row">
+
+                    <div class="col-12 col-lg-9">
+                        <!-- main section header-->
+                        <div class="d-flex py-4 justify-content-between ">
+                            <h2 class="fw-normal">Catalogo Libri</h2>
+                            <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+                        </div>
+                        <!-- /main section header-->
+
+                        <!-- Table section-->
+                        <table class="table table-striped ">
+                            <thead>
+                                <!--Table Header-->
+                                <tr>
+                                    <th scope="col" class="col-6">Titolo</th>
+                                    <th scope="col" class="d-none d-sm-block col-md-2 ">Data Prestito</th>
+                                    <th scope="col" class="col-3 col-md-2">Stato</th>
+                                    <th scope="col" class="col-3 col-md-2">Azioni</th>
+                                </tr>
+                            </thead>
+                            <!--/Table header-->
+
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="fw-light">I pilastri della terra</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light ">I promessi sposi</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Il signore degli anelli</th>
+                                    <td class="d-none d-sm-block">18/10/2023</td>
+                                    <td>
+                                        <span class="badge text-bg-warning text-white">In prestito</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Harry Potter e la pietra filosofale</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Il codice Da Vinci</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-danger">Non disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Shining</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">La divina commedia</th>
+                                    <td class="d-none d-sm-block">21/09/2023</td>
+                                    <td>
+                                        <span class="badge text-bg-warning text-white">In prestito</span>
+
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Il Trono di spade</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Il mondo di Sofia</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-danger">Non disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Le cronache di Narnia</th>
+                                    <td class="d-none d-sm-block">25/07/2023</td>
+                                    <td>
+                                        <span class="badge text-bg-warning text-white">In prestito</span>
+
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Il piccolo principe</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">La storia infinita</th>
+                                    <td class="d-none d-sm-block">-</td>
+                                    <td>
+                                        <span class="badge text-bg-success">Disponibile</span>
+                                    </td>
+                                    <td>
+                                        <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                        <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <!-- /Table section-->
                     </div>
-                    <!-- /main section header-->
 
-                    <!-- Table section-->
-                    <table class="table table-striped ">
-                        <thead>
-                            <!--Table Header-->
-                            <tr>
-                                <th scope="col" class="col-6">Titolo</th>
-                                <th scope="col" class="d-none d-sm-block col-md-2 ">Data Prestito</th>
-                                <th scope="col" class="col-3 col-md-2">Stato</th>
-                                <th scope="col" class="col-3 col-md-2">Azioni</th>
-                            </tr>
-                        </thead>
-                        <!--/Table header-->
+                    <div id="side-col" class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nemo odio reiciendis maxime,
+                            provident cumque itaque voluptates facilis placeat? Amet quaerat eius placeat suscipit eum
+                            tempore vitae aperiam odio porro.</p>
 
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="fw-light">I pilastri della terra</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
 
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light ">I promessi sposi</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Il signore degli anelli</th>
-                                <td class="d-none d-sm-block">18/10/2023</td>
-                                <td>
-                                    <span class="badge text-bg-warning text-white">In prestito</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Harry Potter e la pietra filosofale</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Il codice Da Vinci</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-danger">Non disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Shining</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">La divina commedia</th>
-                                <td class="d-none d-sm-block">21/09/2023</td>
-                                <td>
-                                    <span class="badge text-bg-warning text-white">In prestito</span>
-
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Il Trono di spade</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Il mondo di Sofia</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-danger">Non disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Le cronache di Narnia</th>
-                                <td class="d-none d-sm-block">25/07/2023</td>
-                                <td>
-                                    <span class="badge text-bg-warning text-white">In prestito</span>
-
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">Il piccolo principe</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="fw-light">La storia infinita</th>
-                                <td class="d-none d-sm-block">-</td>
-                                <td>
-                                    <span class="badge text-bg-success">Disponibile</span>
-                                </td>
-                                <td>
-                                    <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
-                                    <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                    <!-- /Table section-->
+                    </div>
                 </div>
-
 
             </div>
 
