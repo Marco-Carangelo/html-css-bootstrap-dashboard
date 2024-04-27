@@ -8,19 +8,15 @@ body {
     /* Firefox */
 }
 
+main {
+    font-size: .8rem;
+}
+
+
 .action-icon {
     color: #6C757D;
     border: 1px solid #6C757D;
 
     padding: .4rem;
     border-radius: 5px;
-}
-
-.table {
-    font-size: .8rem;
-
-}
-
-#side-col {
-    background-color: red;
 }

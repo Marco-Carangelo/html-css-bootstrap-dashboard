@@ -33,7 +33,7 @@
         <!--Header section-->
         <header>
 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark mb-4" data-bs-theme="dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="../img/duck.png" alt="Duck Logo" width="60" height="60">
@@ -90,7 +90,7 @@
 
                     <div class="col-12 col-lg-9">
                         <!-- main section header-->
-                        <div class="d-flex py-4 justify-content-between ">
+                        <div class="d-flex  justify-content-between ">
                             <h2 class="fw-normal">Catalogo Libri</h2>
                             <button type="button" class="btn btn-primary">Aggiungi Libro</button>
                         </div>
@@ -251,10 +251,36 @@
                         <!-- /Table section-->
                     </div>
 
-                    <div id="side-col" class="col">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nemo odio reiciendis maxime,
-                            provident cumque itaque voluptates facilis placeat? Amet quaerat eius placeat suscipit eum
-                            tempore vitae aperiam odio porro.</p>
+                    <div class="col">
+                        <!--To do list-->
+                        <div class="card ">
+                            <div class="card-header">
+                                <h2 class="fw-normal">Todo</h2>
+                            </div>
+                            <div class="card-body ">
+                                <ul class="list-group ">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Chiamare segretaria</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti
+                                            scaduti</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!--/To do list-->
+
 
 
                     </div>
