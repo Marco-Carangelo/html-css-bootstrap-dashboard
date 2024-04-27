@@ -17,9 +17,14 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
 
+
+        <!-- Font Awesome link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <!-- Stylesheet link-->
         <link rel="stylesheet" href="css/style.css">
-
 
     </head>
 
@@ -68,6 +73,46 @@
                     <button type="button" class="btn btn-primary">Aggiungi Libro</button>
                 </div>
                 <!-- /main section header-->
+
+                <!-- Table section-->
+                <table class="table table-striped ">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="col-6">Titolo</th>
+                            <th scope="col" class="d-none d-sm-block col-md-2 ">Data Prestito</th>
+                            <th scope="col" class="col-3 col-md-2">Stato</th>
+                            <th scope="col" class="col-3 col-md-2">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="fw-light">I pilastri della terra</th>
+                            <td class="d-none d-sm-block">-</td>
+                            <td>
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                            <td>
+                                <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-light">I promessi sposi</th>
+                            <td class="d-none d-sm-block">-</td>
+                            <td>
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                            <td>
+                                <span class="action-icon"><i class="fa-solid fa-pen"></i></span>
+                                <span class="action-icon"><i class="fa-solid fa-trash"></i></span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <!-- /Table section-->
+
 
             </div>
 
