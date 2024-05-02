@@ -8,20 +8,6 @@ body {
     /* Firefox */
 }
 
-main {
+.mc-smaller-text {
     font-size: .8rem;
-}
-
-
-.action-icon {
-    color: #6C757D;
-    border: 1px solid #6C757D;
-
-    padding: .4rem;
-    border-radius: 5px;
-}
-
-.accordion-item .accordion-header button {
-    font-size: .8rem;
-
 }
