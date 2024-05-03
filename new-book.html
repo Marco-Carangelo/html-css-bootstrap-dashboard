@@ -71,34 +71,35 @@
                 <!-- /main section header-->
                 <!--Form Section-->
 
-                <form>
+                <form action="new-book.html">
                     <div class="row">
 
                         <!--Name Field-->
                         <div class="col-6 mb-3">
-                            <label for="AuthorName" class="form-label fw-medium">Nome Autore</label>
-                            <input type="text" class="form-control" id="AuthorName"
-                                placeholder="Inserire il nome dell'autore" required>
+                            <label for="author-name" class="form-label fw-medium">Nome Autore</label>
+                            <input type="text" class="form-control" id="author-name"
+                                placeholder="Inserire il nome dell'autore" name="author-name" required>
                         </div>
 
                         <!--Surname Field-->
                         <div class="col-6 mb-3">
-                            <label for="AuthorSurame" class="form-label fw-medium">Cognome Autore</label>
-                            <input type="text" class="form-control" id="AuthorSurame"
+                            <label for="author-last-name" class="form-label fw-medium">Cognome Autore</label>
+                            <input type="text" class="form-control" id="author-last-name" name="author-last-name"
                                 placeholder="Inserire il cognome dell'autore" required>
                         </div>
                         <!--Book Title Field-->
                         <div class=" col-12 mb-3">
-                            <label for="BookTitle" class="form-label fw-medium">Titolo</label>
-                            <input type="text" class="form-control" id="BookTitle"
+                            <label for="book-title" class="form-label fw-medium">Titolo</label>
+                            <input type="text" class="form-control" id="book-title" name="book-title"
                                 placeholder="Inserire il titolo del libro" required>
                             <div class="form-text">Titolo versione italiana</div>
                         </div>
 
                         <!--Genre Field-->
                         <div class=" col-12 col-lg-4 mb-3">
-                            <label for="BookGenre" class="form-label fw-medium">Genere</label>
-                            <select class="form-select" aria-label="Default select example" id="BookGenre">
+                            <label for="book-genre" class="form-label fw-medium">Genere</label>
+                            <select class="form-select" aria-label="Default select example" id="book-genre"
+                                name="book-genre">
                                 <option selected="">Genere</option>
                                 <option value="1">Avventura</option>
                                 <option value="2">Fantasy</option>
@@ -112,31 +113,31 @@
 
                         <!--Year Field-->
                         <div class=" col-12 col-lg-4 mb-3">
-                            <label for="BookYear" class="form-label fw-medium">Anno di Pubblicazione</label>
-                            <input type="number" class="form-control" id="BookYear"
+                            <label for="book-year" class="form-label fw-medium">Anno di Pubblicazione</label>
+                            <input type="number" class="form-control" id="book-year" name="book-year"
                                 placeholder="Inserire l'anno di pubblicazione" max="2024">
                         </div>
 
                         <!--ISBN Field-->
                         <div class=" col-12 col-lg-4 mb-3">
-                            <label for="BookIsbn" class="form-label fw-medium">Inserire l'ISBN#</label>
-                            <input type="text" class="form-control" id="BookIsbn" placeholder="Inserire l'ISBN"
-                                required>
+                            <label for="book-isbn" class="form-label fw-medium">Inserire l'ISBN#</label>
+                            <input type="text" class="form-control" id="book-isbn" name="book-isbn"
+                                placeholder="Inserire l'ISBN" required>
                         </div>
 
                         <hr class="my-4">
 
                         <!--Note Field-->
                         <div class=" col-12 mb-3">
-                            <label for="BookNote" class="form-label fw-medium">Note</label>
-                            <textarea class="form-control" id="BookNote" placeholder="Inserire eventuali note sul libro"
-                                rows="3"></textarea>
+                            <label for="book-note" class="form-label fw-medium">Note</label>
+                            <textarea class="form-control" id="book-note" name="book-name"
+                                placeholder="Inserire eventuali note sul libro" rows="3"></textarea>
                         </div>
 
                         <!--Digital Copies Checkbox-->
                         <div class="mb-3  col-12 ">
-                            <input type="checkbox" class="form-check-input" id="Dgt-Avaible">
-                            <label class="form-check-label fw-medium" for="Dgt-Avaible">Disponibile anche in
+                            <input type="checkbox" class="form-check-input" id="book-digital" name="book-digital">
+                            <label class="form-check-label fw-medium" for="book-digital">Disponibile anche in
                                 digitale</label>
                         </div>
 
